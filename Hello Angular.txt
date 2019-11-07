@@ -1,0 +1,228 @@
+First Angular 
+***********Angular server **********
+Gayathris-MacBook-Pro:FirstAngular Gayathri$ sudo npm install -g @angular/cli
+Password:
+/usr/local/bin/ng -> /usr/local/lib/node_modules/@angular/cli/bin/ng
+
+> @angular/cli@8.3.17 postinstall /usr/local/lib/node_modules/@angular/cli
+> node ./bin/postinstall/script.js
+
+? Would you like to share anonymous usage data with the Angular Team at Google under
+Google’s Privacy Policy at https://policies.google.com/privacy? For more details and
+how to change this setting, see http://angular.io/analytics. No
++ @angular/cli@8.3.17
+updated 1 package in 12.166s
+Gayathris-MacBook-Pro:FirstAngular Gayathri$ ng new public
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE public/README.md (1024 bytes)
+CREATE public/.editorconfig (246 bytes)
+CREATE public/.gitignore (631 bytes)
+CREATE public/angular.json (3593 bytes)
+CREATE public/package.json (1292 bytes)
+CREATE public/tsconfig.json (543 bytes)
+CREATE public/tslint.json (1953 bytes)
+CREATE public/browserslist (429 bytes)
+CREATE public/karma.conf.js (1018 bytes)
+CREATE public/tsconfig.app.json (270 bytes)
+CREATE public/tsconfig.spec.json (270 bytes)
+CREATE public/src/favicon.ico (948 bytes)
+CREATE public/src/index.html (292 bytes)
+CREATE public/src/main.ts (372 bytes)
+CREATE public/src/polyfills.ts (2838 bytes)
+CREATE public/src/styles.css (80 bytes)
+CREATE public/src/test.ts (642 bytes)
+CREATE public/src/assets/.gitkeep (0 bytes)
+CREATE public/src/environments/environment.prod.ts (51 bytes)
+CREATE public/src/environments/environment.ts (662 bytes)
+CREATE public/src/app/app-routing.module.ts (246 bytes)
+CREATE public/src/app/app.module.ts (393 bytes)
+CREATE public/src/app/app.component.css (0 bytes)
+CREATE public/src/app/app.component.html (25530 bytes)
+CREATE public/src/app/app.component.spec.ts (1098 bytes)
+CREATE public/src/app/app.component.ts (210 bytes)
+CREATE public/e2e/protractor.conf.js (808 bytes)
+CREATE public/e2e/tsconfig.json (214 bytes)
+CREATE public/e2e/src/app.e2e-spec.ts (639 bytes)
+CREATE public/e2e/src/app.po.ts (262 bytes)
+
+> fsevents@1.2.9 install /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/@angular/compiler-cli/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[fsevents] Success: "/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/@angular/compiler-cli/node_modules/fsevents/lib/binding/Release/node-v72-darwin-x64/fse.node" is installed via remote
+
+> fsevents@1.2.9 install /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/karma/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[fsevents] Success: "/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/karma/node_modules/fsevents/lib/binding/Release/node-v72-darwin-x64/fse.node" is installed via remote
+
+> fsevents@1.2.9 install /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/watchpack/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[fsevents] Success: "/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/watchpack/node_modules/fsevents/lib/binding/Release/node-v72-darwin-x64/fse.node" is installed via remote
+
+> fsevents@1.2.9 install /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/webpack-dev-server/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[fsevents] Success: "/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/webpack-dev-server/node_modules/fsevents/lib/binding/Release/node-v72-darwin-x64/fse.node" is installed via remote
+
+> core-js@2.6.10 postinstall /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/babel-runtime/node_modules/core-js
+> node postinstall || echo "ignore"
+
+
+> core-js@3.2.1 postinstall /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> core-js@2.6.10 postinstall /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/karma/node_modules/core-js
+> node postinstall || echo "ignore"
+
+
+> @angular/cli@8.3.17 postinstall /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/public/node_modules/@angular/cli
+> node ./bin/postinstall/script.js
+
+? Would you like to share anonymous usage data with the Angular Team at Google under
+Google’s Privacy Policy at https://policies.google.com/privacy? For more details and
+how to change this setting, see http://angular.io/analytics. No
+⸨            ░░░░░░⸩ ⠹ postinstall: info lifecycle zone.js@0.9.1~postinstall: zone.js@0.9.1
+added 1459 packages from 1071 contributors and audited 18872 packages in 170.647s
+found 0 vulnerabilities
+
+    Successfully initialized git.
+Gayathris-MacBook-Pro:FirstAngular Gayathri$ 
+Gayathris-MacBook-Pro:FirstAngular Gayathri$ ng --version 
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI: 8.3.17
+Node: 12.13.0
+OS: darwin x64
+Angular: 
+... 
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.803.17
+@angular-devkit/core         8.3.17
+@angular-devkit/schematics   8.3.17
+@schematics/angular          8.3.17
+@schematics/update           0.803.17
+rxjs                         6.4.0
+    
+Gayathris-MacBook-Pro:FirstAngular Gayathri$ npm init -y 
+Wrote to /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/package.json:
+
+{
+  "name": "FirstAngular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+Gayathris-MacBook-Pro:FirstAngular Gayathri$ npm install express
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN FirstAngular@1.0.0 No description
+npm WARN FirstAngular@1.0.0 No repository field.
+
++ express@4.17.1
+added 50 packages from 37 contributors and audited 126 packages in 3.637s
+found 0 vulnerabilities
+
+Gayathris-MacBook-Pro:FirstAngular Gayathri$ cd public
+Gayathris-MacBook-Pro:public Gayathri$ ng build --watch
+
+chunk {main} main.js, main.js.map (main) 48.1 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 264 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 9.78 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.75 MB [initial] [rendered]
+Date: 2019-11-07T17:18:45.607Z - Hash: 084c0f7cb25b99bcfb31 - Time: 18510ms
+
+Date: 2019-11-07T17:26:02.067Z - Hash: 8e71cd01d46db7b5befe
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 48.1 kB [initial] [rendered]
+Time: 579ms
+^C
+Gayathris-MacBook-Pro:public Gayathri$ 
+***********Express server **********
+Last login: Wed Nov  6 21:52:42 on ttys002
+Gayathris-MacBook-Pro:~ Gayathri$ cd "/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular"
+Gayathris-MacBook-Pro:FirstAngular Gayathri$ nodemon server.js
+[nodemon] 1.19.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching dir(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+internal/modules/cjs/loader.js:797
+    throw err;
+    ^
+
+Error: Cannot find module 'mongoose'
+Require stack:
+- /Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/server.js:14:16)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1025:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/server.js'
+  ]
+}
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/server.js:18
+mongoose.Promise = global.Promise;
+^
+
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (/Users/Gayathri/Desktop/Old Mac Backup/Users/gayathri/Documents/Coding Dojo/Mean/Angular/FirstAngular/server.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)
+    at internal/main/run_main_module.js:17:11
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+body-parser deprecated undefined extended: provide extended option server.js:22:20
+Listening on port: 8000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+body-parser deprecated undefined extend```ed: provide extended option server.js:22:20
+Listening on port: 8000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+body-parser deprecated undefined extended: provide extended option server.js:18:20
+Listening on port: 8000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+body-parser deprecated undefined extended: provide extended option server.js:18:20
+Listening on port: 8000
+^CGayathris-MacBook-Pro:FirstAngular Gayathri$ 
